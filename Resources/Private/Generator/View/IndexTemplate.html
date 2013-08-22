@@ -10,7 +10,7 @@
                     <li>
                         <f:link.action action="show" arguments="{]]>{modelName}: {modelName}<![CDATA[}">{]]>{modelName}<![CDATA[.name}</f:link.action>
                         <f:link.action action="edit" arguments="{]]>{modelName}: {modelName}<![CDATA[}">Edit</f:link.action>
-                        <f:form action="delete" arguments="{]]>{modelName}: {modelName}<![CDATA[}">
+                        <f:form action="delete" arguments="{]]>{modelName}: {modelName}<![CDATA[}" additionalAttributes="{style: 'display: inline;'}">
                             <f:form.submit value="Delete" />
                         </f:form>
                     </li>

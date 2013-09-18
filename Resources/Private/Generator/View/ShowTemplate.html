@@ -8,6 +8,6 @@
             <th>{propertyName -> k:inflect.humanizeCamelCase()}</th>
             <td><f:if condition="{0: property.type} == {0: 'DateTime'}"><f:then><![CDATA[{]]>{modelName}.{propertyName}<![CDATA[ -> f:format.date(format: 'Y-m-d H:i')}]]></f:then><f:else><![CDATA[{]]>{modelName}.{propertyName}<![CDATA[}]]></f:else></f:if></td>
         </tr>
-    </f:for></table>
+</f:for></table>
     <![CDATA[<f:link.action action="index">Back</f:link.action>]]>
 <![CDATA[</f:section>]]>
